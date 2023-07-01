@@ -156,6 +156,6 @@ class StringsTest {
 		assertThrowsExactly(NoSuchElementException.class,
 				() -> Strings.computeExpression(" b + 100 - 10", mapVariables));
 	}
-	
+	//
 
 }
